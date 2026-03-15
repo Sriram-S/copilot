@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+.eggs/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Node
+node_modules/
+npm-debug.log*
+dist/
+
+# Java / Maven / Gradle
+target/
+.gradle/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+.vscode/settings.json
+*.iml
+*.iws
+.classpath
+.project
+.settings/
+
+# Allure / Test Reports
+allure-results/
+allure-report/
+reports/
+test-results/
+*.html
+
+# Playwright
+playwright/.cache/
+
+# Session notes (local only)
+.copilot-session-state.md
+.copilot-session-notes/
+.copilot-delivery-report.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# k6
+k6-results/
+
+# dotenv
+.env
+.env.local
